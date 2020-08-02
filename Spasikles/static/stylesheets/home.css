@@ -4,6 +4,9 @@ body {
 }
 
 /*footer*/ 
+footer{
+    background-color: black;
+}
 .FooterList a{
     text-decoration: none;
     color: rgb(126, 126, 126);
@@ -24,10 +27,13 @@ body {
 
 .component-footer__line{
     display: block;
-    width: 90%;
+    width: 100%;
     border: 0;
     border-top: 1px solid #666;
-    margin: 20px 20px ;
+}
+
+.seprator{
+    margin: 0px 20px;
 }
 
 .icon {
@@ -36,6 +42,10 @@ body {
 
 .icon:hover {
     opacity: 50%;
+}
+
+.component-social-link{
+    margin-left: 50px ;
 }
 
 .component-footer__label{
