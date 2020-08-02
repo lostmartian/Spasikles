@@ -1,0 +1,58 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/*footer*/ 
+footer{
+    background-color: black;
+}
+.FooterList a{
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+}
+
+.FooterList a:hover{
+    color: white;
+}
+
+.FooterList hr{
+    margin: 2px;
+    padding: 2px;
+}
+
+#footerNavBar{
+    margin-left: 40px;
+}
+
+.component-footer__line{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #666;
+}
+
+.seprator{
+    margin: 0px 20px;
+}
+
+.icon {
+    margin: 5px 5px 5px 5px;
+}
+
+.icon:hover {
+    opacity: 50%;
+}
+
+.component-social-link{
+    margin-left: 50px ;
+}
+
+.component-footer__label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Copyright{
+    margin-bottom:10px;
+}
