@@ -6,6 +6,8 @@ body {
 /*footer*/ 
 footer{
     background-color: black;
+    color: white;
+    padding-top: 20px;
 }
 .FooterList a{
     text-decoration: none;
