@@ -91,7 +91,7 @@
         
         .NewsCanvas {
             margin: 20px 0px;
-            background-color: black;
+            background-color: teal;
             color: white;
             padding: 30px;
         }
@@ -110,12 +110,14 @@
         .NewsCanvasBlock {
             margin: 20px 0px 40px 0px;
             padding: 20px 0px;
+            background-color: rgba(0, 0, 0, 0);
         }
         
         .NewsCanvasBlocks {
             background-color: black;
             margin: 20px 0px;
             padding: 0px;
+            background-color: rgba(0, 0, 0, 0);
         }
         
         .NewsCards {
