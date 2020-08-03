@@ -26,7 +26,8 @@ body {
 /* navbar_ends_here */
 
 /*footer*/ 
-footer{
+.component-footer{
+    margin: 0px 0px 0px 0px;
     background-color: black;
     color: white;
     padding-top: 20px;
@@ -57,7 +58,7 @@ footer{
 }
 
 .seprator{
-    margin: 0px 20px;
+    margin: 0px 0px;
 }
 
 .icon {
@@ -65,16 +66,17 @@ footer{
 }
 
 .icon:hover {
-    opacity: 50%;
+    opacity: 20%;
 }
 
 .component-social-link{
     margin-left: 50px ;
+    
 }
 
 .component-footer__label{
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 0px 10px;
+    
 }
 
 .Copyright{
