@@ -143,6 +143,56 @@
             margin-right:0px;
         }
         /* news_canavas_ends_here*/
+
+        /*contribution_canvas_starts_here*/
+
+
+        /*contribution_canvas_ends_here*/
+
+        .ContributionContainer{
+            padding: 40px 20px;
+            margin:0px;
+            margin-bottom: 30px;
+        }
+
+        .ContributionTextTitle{
+            font-size: 40px;
+            font-weight: 750;
+            padding: 20px 0px;
+        }
+
+        .ContributionTextDescription{
+            font-size: x-large;
+            padding: 5px 0px;
+        }
+
+        .BtnContribute{
+            padding: 40px 0px 50px 0px;
+            color: white;
+        }
+
+        .ContributionBannerContainer{
+            align-items: center;
+        }
+
+        .ContributionBanner{
+            display: inline-block;
+            background-color: rgb(8, 144, 194);
+            width: 550px;
+            height: 300px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .ContributionBannerTitle{
+            font-size: xx-large;
+            font-weight: 700;
+        }
+
+        .ContributionBannerDescription{
+            font-size: large;
+        }
+
         /* footer_starts_here */
         
         .component-footer {
