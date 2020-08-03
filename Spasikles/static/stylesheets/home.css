@@ -142,7 +142,7 @@
             color: white;
             padding-top: 20px;
         }
-        
+
         .FooterList a {
             text-decoration: none;
             color: rgb(126, 126, 126);
@@ -158,7 +158,7 @@
         }
         
         #footerNavBar {
-            margin-left: 40px;
+            margin-left: 0px;
         }
         
         .component-footer__line {
@@ -181,7 +181,7 @@
         }
         
         .component-social-link {
-            margin-left: 50px;
+            margin-left: 0px;
         }
         
         .component-footer__label {
