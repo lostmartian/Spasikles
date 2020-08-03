@@ -1,7 +1,29 @@
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
+    margin-right: 10px;
+    margin-right: 10px;
 }
+
+/* container_starts_here */
+
+.container {
+    background-color: #fff;
+}
+
+/* container_ends_here */
+
+
+
+/* navbar_starts_here */
+@media all and (min-width: 992px) {
+	.navbar{ padding-top: 0; padding-bottom: 0; background-color: black; color: fff;}
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; padding:20px; background-color: #000; color: blanchedalmond;}
+	.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+}
+
+/* navbar_ends_here */
 
 /*footer*/ 
 footer{
