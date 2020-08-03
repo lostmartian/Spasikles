@@ -2,7 +2,30 @@ body {
     background-color: #fff;
     color: #000;
 }
+/*news canvas*/
+.NewsCanvas{
+    margin: 20px 0px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
 
+.NewsCanvasBlock{
+    margin : 20px 0px;
+}
+.NewsCanvasBlocks{
+   background-color: black;
+    margin: 20px 0px;
+   
+}
+
+.NewsCards{
+    background-color: pink;
+    height: 300px;
+    width: 70%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
 /*footer*/ 
 .component-footer{
     margin: 0px 0px 0px 0px;
