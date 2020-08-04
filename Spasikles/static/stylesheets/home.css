@@ -21,20 +21,18 @@
 	.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
 } */
         /* adds some margin below the link sets  */
-        
-        .navbar .dropdown-menu div[class*="col"] {
-            margin-bottom: 1rem;
-        }
-        
-        .navbar .dropdown-menu {
-            border: none;
-            color: thistle;
-            background-color: #000 !important;
-        }
         /* breakpoint and up - mega dropdown styles */
         
         @media screen and (min-width: 992px) {
             /* remove the padding from the navbar so the dropdown hover state is not broken */
+            .navbar .dropdown-menu div[class*="col"] {
+                margin-bottom: 1rem;
+            }
+            .navbar .dropdown-menu {
+                border: none;
+                color: thistle;
+                background-color: #000 !important;
+            }
             .navbar {
                 color: white;
                 background-color: #000;
