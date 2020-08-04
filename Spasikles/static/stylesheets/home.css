@@ -1,28 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Oranienbaum&display=swap');
         body {
             background-color: #fff;
             color: #000;
             font-family: Arial, Helvetica, sans-serif;
         }
+
         /* jumbotron_starts_here */
-        
+
         .jumbotron-redefined {
             background-color: #000;
         }
+
         /* jumbotron_ends_here */
+
         /* navbar_starts_here */
-        
+
         .containerNav {
             background-color: #000;
         }
+
         /* @media all and (min-width: 992px) {
 	.navbar{ padding-top: 0; padding-bottom: 0; background-color: black; color: fff;}
 	.navbar .has-megamenu{position:static!important;}
 	.navbar .megamenu{left:0; right:0; width:100%; padding:20px; background-color: #000; color: #e91e63;}
 	.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
 } */
+
         /* adds some margin below the link sets  */
+
         /* breakpoint and up - mega dropdown styles */
-        
+
         @media screen and (min-width: 992px) {
             /* remove the padding from the navbar so the dropdown hover state is not broken */
             .navbar .dropdown-menu div[class*="col"] {
@@ -64,16 +71,14 @@
             }
             .navbar-brand {
                 color: white;
-                font-weight: bolder;
-                font-size: x-large;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: xx-large;
+                font-family: 'Oranienbaum', serif;
             }
             .nav-link {
                 color: white;
             }
             /* shows the dropdown menu on hover */
-            .navbar .dropdown:hover .dropdown-menu,
-            .navbar .dropdown .dropdown-menu:hover {
+            .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
                 display: block;
                 visibility: visible;
                 opacity: 1;
@@ -84,23 +89,44 @@
                 background-color: #fff;
             }
         }
+
+        .categoryCardTitle {
+            background-color: black;
+            border-color: #f48fb1;
+            border-width: 0px;
+            border-radius: 10%;
+            color: white;
+        }
+
         /* navbar_ends_here */
-        /* news_canvas_starts_here */
+
+        /* banner_starts_here */
+
         
+
+        /* banner_ends_here
+
+
+
+
+
+
+        /* news_canvas_starts_here */
+
         .NewsCanvas {
             margin: 20px 0px;
             background-color: teal;
             color: white;
             padding: 30px;
         }
-        
+
         .NewsCanvasNewsLabel {
             padding: 30px 0px;
             font-weight: bolder;
             font-size: 35px;
         }
 
-        .BtnMoreStoriesContainer{
+        .BtnMoreStoriesContainer {
             padding: 20px 0px 20px 0px;
             margin: 20px 0px 20px 0px;
         }
@@ -110,16 +136,16 @@
             padding: 20px 0px;
             background-color: rgba(0, 0, 0, 0);
         }
-        
+
         .NewsCanvasBlocks {
             background-color: black;
             margin: 20px 0px;
             padding: 0px;
             background-color: rgba(0, 0, 0, 0);
         }
-        
+
         .NewsCards {
-            background-color: rgba(0,0,0,0);
+            background-color: rgba(0, 0, 0, 0);
             height: 300px;
             width: 65%;
             border: 2px solid white;
@@ -127,53 +153,53 @@
             padding: 0px;
         }
 
-        .NewsCardElement{
+        .NewsCardElement {
             height: 100%;
             width: 100%;
             border-radius: 10px;
         }
 
         #n-1 {
-            margin-left:0px;
+            margin-left: 0px;
         }
 
         #n-3 {
-            margin-right:0px;
+            margin-right: 0px;
         }
+
         /* news_canavas_ends_here*/
 
         /*contribution_canvas_starts_here*/
 
-
         /*contribution_canvas_ends_here*/
 
-        .ContributionContainer{
+        .ContributionContainer {
             padding: 40px 20px;
-            margin:0px;
+            margin: 0px;
             margin-bottom: 30px;
         }
 
-        .ContributionTextTitle{
+        .ContributionTextTitle {
             font-size: 40px;
             font-weight: 750;
             padding: 20px 0px;
         }
 
-        .ContributionTextDescription{
+        .ContributionTextDescription {
             font-size: x-large;
             padding: 5px 0px;
         }
 
-        .BtnContribute{
+        .BtnContribute {
             padding: 40px 0px 50px 0px;
             color: white;
         }
 
-        .ContributionBannerContainer{
+        .ContributionBannerContainer {
             align-items: center;
         }
 
-        .ContributionBanner{
+        .ContributionBanner {
             display: inline-block;
             background-color: rgb(8, 144, 194);
             width: 550px;
@@ -182,17 +208,17 @@
             color: white;
         }
 
-        .ContributionBannerTitle{
+        .ContributionBannerTitle {
             font-size: xx-large;
             font-weight: 700;
         }
 
-        .ContributionBannerDescription{
+        .ContributionBannerDescription {
             font-size: large;
         }
 
         /* footer_starts_here */
-        
+
         .component-footer {
             margin: 0px 0px 0px 0px;
             background-color: black;
@@ -204,53 +230,53 @@
             text-decoration: none;
             color: rgb(126, 126, 126);
         }
-        
+
         .FooterList a:hover {
             color: white;
         }
-        
+
         .FooterList hr {
             margin: 2px;
             padding: 2px;
         }
-        
+
         #footerNavBar {
             margin-left: 0px;
             padding: 20px 0px;
         }
-        
+
         .component-footer__line {
             display: block;
             width: 100%;
             border: 0;
             border-top: 1px solid #666;
         }
-        
+
         .seprator {
             margin: 0px 0px;
             padding: 20px 0px;
         }
-        
+
         .icon {
             margin: 5px 5px 5px 5px;
         }
-        
+
         .icon:hover {
             opacity: 20%;
         }
-        
+
         .component-social-link {
             margin-left: 0px;
         }
-        
+
         .component-footer__label {
             margin: 0px 10px;
         }
-        
+
         .Copyright {
             margin-bottom: 10px;
             padding-top: 30px;
             padding-bottom: 10px;
         }
 
-    /*footer_ends_here*/
+        /*footer_ends_here*/
