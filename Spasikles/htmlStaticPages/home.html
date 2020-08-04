@@ -241,41 +241,120 @@
         sit amet consectetur adipisicing elit. Voluptatem odit, velit quos recusandae quae non qui ipsam cum dolore atque ipsa pariatur nulla quibusdam temporibus aspernatur sapiente totam nisi culpa!
     </p>
 
-
+    <!--News_camavs_starts_here-->
     <div class="NewsCanvas container-fluid row">
-        <span class="col-md-12"><h2>News</h2></span>
+        <div role="news_label" class="NewsCanvasNewsLabel col-md-12 text-left">
+            <span class="col-md-12">News</span>
+        </div>
         <div class="container col-md-12">
-            <h4>Amazon invested staggaring $5 Billion in Jio</h4>
+            <h3 style="padding:7px 0px;">
+                Amazon invested staggaring $5 Billion in Jio
+            </h3>
             <h5>
                 Amazon has already invested billions of dollars in various Indian enterprises, and announced earlier this year it would spend as much as $1 billion to help that country's small businesses develop e-commerce platforms.
             </h5>
+            <div class="BtnMoreStoriesContainer container col-md-12 float-left">
+                <div class="BtnMoreStories">
+                    <a class="btn btn-primary btn-lg">More Stories</a>
+
+                </div>
+            </div>
             <div class="NewsCanvasBlock container row col-md-12">
+                <!--card first-->
                 <div class="NewsCanvasBlocks container col-md-4 col-sm-12">
-                    <div class="NewsCards container text-left d-flex align-items-end">
-                        <span class="text-left"><h5>Amazon Invested in Jio</h5></span>
+                    <div class="NewsCards container d-flex align-items-start" id="n-1">
+                        <a href="" class="NewsCardElement text-reset text-decoration-none">
+                            <div class="px-3 py-3">
+                                <h4 >
+                                    Title
+                                </h4>
+                            </div>
+                            <div class="px-3 py-3">
+                                <h5>
+                                    Brief description of news goes here.
+                                </h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
+                <!--card second-->
                 <div class="NewsCanvasBlocks container col-md-4 col-sm-12">
-                    <div class="NewsCards container d-flex align-items-end">
-                        <span class="text-left"><h5>Galaxy Unpacked</h5></span>
+                    <div class="NewsCards container d-flex align-items-start" id="n-2">
+                        <a href="" class="NewsCardElement text-reset text-decoration-none">
+                            <div class="px-3 py-3">
+                                <h4 >
+                                    Title
+                                </h4>
+                            </div>
+                            <div class="px-3 py-3">
+                                <h5>
+                                    Brief description of news goes here.
+                                </h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
+                <!--card third-->
                 <div class="NewsCanvasBlocks container col-md-4 col-sm-12">
-                    <div class="NewsCards container d-flex align-items-end">
-                        <span class="text-left"><h5>iphone 12 without charging brick</h5></span>
+                    <div class="NewsCards container d-flex align-items-start" id="n-3">
+                        <a href="" class="NewsCardElement text-reset text-decoration-none">
+                            <div class="px-3 py-3">
+                                <h4 >
+                                    Title
+                                </h4>
+                            </div>
+                            <div class="px-3 py-3">
+                                <h5>
+                                    Brief description of news goes here.
+                                </h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
+                
 
             </div>
         </div>
 
     </div>
-    <!--News Canvas End-->
-    <!--Footer Start-->
+    <!--news_canvas_end_here-->
+
+    <!--contribution_canvas_starts_here-->
+    <div class="ContributionContainer container-fluid row">
+        <div class="ContributionTextContainer col-lg-6 col-md-12 col-sm-12">
+            <div class="ContributionTextTitle col-md-12">
+                <Span>Together, We Create Quality Content For Tech Nerds!</Span>
+            </div>
+            <div class="ContributionTextDescription col-md-12">
+                <span>Join us in creating and maintaining tech blogs for tech nerds all around the globe. </span>
+            </div>
+            <div class="BtnContribute">
+                <a class="btn btn-primary btn-lg">Contribute</a>
+            </div>
+
+        </div>
+        <div class="ContributionBannerContainer col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="ContributionBanner">
+                <div class="ContributionBannerTitle px-4 py-4">
+                    <span>Contribute Us</span>
+                </div>
+                <div class="ContributionBannerDescription px-4 py-4">
+                    <span>Help us creating and maintaining qulaity blogs and get featured on website.</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--contribution_canvas_ends_here-->
+
+    <!--footer_start_here-->
 
     <footer class="component-footer container-fluid row">
         <div class="container-fluid component-social-link col-md-6">
-            <div class="component-footer__label">Social</div>
+            <div class="component-footer__label"><h5>Social</h5></div>
             <a class="icon twitter" href=""><img src="https://img.icons8.com/fluent/28/000000/twitter.png" /></a>
             <a class="icon instagram" href=""><img src="https://img.icons8.com/fluent/28/000000/instagram-new.png" /></a>
             <a class="icon linkedin" href="">
@@ -292,7 +371,7 @@
             <hr class="component-footer__line">
         </div>
         <div id="footerNavBar" class="container-fluid row ">
-            <ul class="FooterList col-md-4 col-sm-4 list-unstyled">
+            <ul class="FooterList col-md-3 col-sm-3 list-unstyled">
                 <!-- about -->
                 <span>About Spasikles</span>
                 <hr>
@@ -303,22 +382,32 @@
                 <li><a href="">Partners</a></li>
 
             </ul>
-            <ul class="FooterList col-md-4 col-sm-4 list-unstyled">
+            <ul class="FooterList col-md-3 col-sm-3 list-unstyled">
                 <!-- links -->
-                <span>Resources</span>
+                <span>Contribution</span>
                 <hr>
                 <li><a href="">link1</a></li>
                 <li><a href="">link2</a></li>
                 <li><a href="">link3</a></li>
 
             </ul>
-            <ul class="FooterList col-md-4 col-sm-4 list-unstyled">
+            <ul class="FooterList col-md-3 col-sm-3 list-unstyled">
                 <!-- more something -->
-                <span>More</span>
+                <span>User</span>
                 <hr>
                 <li><a href="">Complaint</a></li>
                 <li><a href="">Suggestion</a></li>
                 <li><a href="">Feedback</a></li>
+            </ul>
+            <ul class="FooterList col-md-3 col-sm-3 list-unstyled">
+                <!-- legal -->
+                <span>Other</span>
+                <hr>
+                <li><a href="">Legal</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Security</a></li>
+                <li><a href="">Cookies</a></li>
+                <li><a href="">Cookies Setting</a></li>
             </ul>
         </div>
         <div class="Copyright col-md-12 text-center">
@@ -326,7 +415,7 @@
         </div>
     </footer>
 
-    <!--Footer End-->
+    <!--footer_end_here-->
 </body>
 <script src="../static/stylesheets/bootstrap/js/bootstrap.min.js"></script>
 <script src="../static/scripts/jquery/dist/jquery.slim.min.js"></script>
