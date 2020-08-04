@@ -85,32 +85,113 @@
             }
         }
         /* navbar_ends_here */
-        /*news canvas*/
+        /* news_canvas_starts_here */
         
         .NewsCanvas {
             margin: 20px 0px;
-            background-color: black;
+            background-color: teal;
             color: white;
             padding: 30px;
         }
         
+        .NewsCanvasNewsLabel {
+            padding: 30px 0px;
+            font-weight: bolder;
+            font-size: 35px;
+        }
+
+        .BtnMoreStoriesContainer{
+            padding: 20px 0px 20px 0px;
+            margin: 20px 0px 20px 0px;
+        }
+
         .NewsCanvasBlock {
-            margin: 20px 0px;
+            margin: 20px 0px 40px 0px;
+            padding: 20px 0px;
+            background-color: rgba(0, 0, 0, 0);
         }
         
         .NewsCanvasBlocks {
             background-color: black;
             margin: 20px 0px;
+            padding: 0px;
+            background-color: rgba(0, 0, 0, 0);
         }
         
         .NewsCards {
-            background-color: pink;
+            background-color: rgba(0,0,0,0);
             height: 300px;
-            width: 70%;
-            border: 3px solid white;
+            width: 65%;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 0px;
+        }
+
+        .NewsCardElement{
+            height: 100%;
+            width: 100%;
             border-radius: 10px;
         }
-        /*footer*/
+
+        #n-1 {
+            margin-left:0px;
+        }
+
+        #n-3 {
+            margin-right:0px;
+        }
+        /* news_canavas_ends_here*/
+
+        /*contribution_canvas_starts_here*/
+
+
+        /*contribution_canvas_ends_here*/
+
+        .ContributionContainer{
+            padding: 40px 20px;
+            margin:0px;
+            margin-bottom: 30px;
+        }
+
+        .ContributionTextTitle{
+            font-size: 40px;
+            font-weight: 750;
+            padding: 20px 0px;
+        }
+
+        .ContributionTextDescription{
+            font-size: x-large;
+            padding: 5px 0px;
+        }
+
+        .BtnContribute{
+            padding: 40px 0px 50px 0px;
+            color: white;
+        }
+
+        .ContributionBannerContainer{
+            align-items: center;
+        }
+
+        .ContributionBanner{
+            display: inline-block;
+            background-color: rgb(8, 144, 194);
+            width: 550px;
+            height: 300px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .ContributionBannerTitle{
+            font-size: xx-large;
+            font-weight: 700;
+        }
+
+        .ContributionBannerDescription{
+            font-size: large;
+        }
+
+        /* footer_starts_here */
         
         .component-footer {
             margin: 0px 0px 0px 0px;
@@ -118,7 +199,7 @@
             color: white;
             padding-top: 20px;
         }
-        
+
         .FooterList a {
             text-decoration: none;
             color: rgb(126, 126, 126);
@@ -134,7 +215,8 @@
         }
         
         #footerNavBar {
-            margin-left: 40px;
+            margin-left: 0px;
+            padding: 20px 0px;
         }
         
         .component-footer__line {
@@ -146,6 +228,7 @@
         
         .seprator {
             margin: 0px 0px;
+            padding: 20px 0px;
         }
         
         .icon {
@@ -157,7 +240,7 @@
         }
         
         .component-social-link {
-            margin-left: 50px;
+            margin-left: 0px;
         }
         
         .component-footer__label {
@@ -166,4 +249,8 @@
         
         .Copyright {
             margin-bottom: 10px;
+            padding-top: 30px;
+            padding-bottom: 10px;
         }
+
+    /*footer_ends_here*/
