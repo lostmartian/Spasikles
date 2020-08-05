@@ -165,7 +165,7 @@ body {
 }
 
 .NewsCanvasNewsLabel {
-    padding: 30px 0px;
+    padding: 20px 0px;
     font-weight: bolder;
     font-size: 35px;
 }
@@ -176,22 +176,29 @@ body {
 }
 
 .NewsCanvasBlock {
-    margin: 20px 0px 40px 0px;
+    margin: 0px 0px 40px 0px;
     padding: 20px 0px;
     background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
 .NewsCanvasBlocks {
+    flex: 0 0 auto;
     background-color: black;
-    margin: 20px 0px;
-    padding: 0px;
+    margin: 0px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
 }
 
 .NewsCards {
     background-color: rgba(0, 0, 0, 0);
     height: 300px;
-    width: 65%;
+    width: 100%;
     border: 2px solid white;
     border-radius: 10px;
     padding: 0px;
