@@ -84,7 +84,6 @@ body {
     }
     .nav-item a:hover {
         color: #84ffff;
-        color: ;
         font-weight: bold;
     }
     /* shows the dropdown menu on hover */
@@ -323,5 +322,5 @@ body {
     padding-top: 30px;
     padding-bottom: 10px;
 }
-
+/* #007bfs */
 /*footer_ends_here*/
