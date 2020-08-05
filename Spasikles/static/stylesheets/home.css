@@ -37,7 +37,7 @@ body {
     }
     .navbar .dropdown-menu {
         border: none;
-        color: #84ffff;
+        color: #03A9F4;
         background-color: #000 !important;
     }
     .navbar {
@@ -83,16 +83,15 @@ body {
         text-decoration: none;
     }
     .nav-item a:hover {
-        color: #84ffff;
-        color: ;
-        font-weight: bold;
+        color: #03A9F4;
+        font-weight: normal;
     }
     /* shows the dropdown menu on hover */
     .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
         display: block;
         visibility: visible;
-        opacity: 0.93;
-        transition: visibility 0s, opacity 0.7s linear;
+        opacity: 1;
+        transition: visibility 0s, opacity 0.3s linear;
     }
     .navbar .dropdown-menu {
         border: 1px solid rgba(0, 0, 0, .15);
@@ -114,7 +113,9 @@ body {
 }
 
 .cardHover a:hover {
-    color: #a7ffeb;
+    color: #000;
+    background-color: white;
+    border-radius: 3%;
     font-weight: normal;
 }
 
@@ -124,7 +125,7 @@ body {
     /* IE5+ */
     -webkit-filter: grayscale(1);
     /* Webkit Nightlies & Chrome Canary */
-    -webkit-transition: all .2s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
 }
 
 .imgMobileBrand:hover {
@@ -136,18 +137,143 @@ body {
 .btnBrandsSeeMore {
     color: black;
     border-width: 0px;
-    background-color: #00bcd4;
+    background-color: #007bff;
 }
 
-.btnBrandsSeeMore:hover{
+.btnBrandsSeeMore:hover {
     color: white;
     border-width: 0px;
-    background-color: #006064;
+    background-color: #007bff;
+}
+
+
+
+.cardDescriptionBlog .a {
+    color: #000;
+}
+
+.cardDescriptionBlog .a:hover {
+    color: black;
 }
 
 /* navbar_ends_here */
 
 /* banner_starts_here */
+
+.carouselBuilt {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 20px;
+}
+
+.carouselInnerBuilt {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carouselOpenBuilt:checked+.carouselItemBuilt {
+    position: static;
+    opacity: 100;
+}
+
+.carouselItemBuilt {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carouselItemBuilt img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.carouselControlBuilt {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carouselControlBuilt.prev {
+    left: 2%;
+}
+
+.carouselControlBuilt.next {
+    right: 2%;
+}
+
+.carouselControlBuilt:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel1Built:checked~.control1Built, #carousel2Built:checked~.control2Built, #carousel3Built:checked~.control3Built {
+    display: block;
+}
+
+.carouselIndicatorsBuilt {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carouselIndicatorsBuilt li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carouselBulletBuilt {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carouselBulletBuilt:hover {
+    color: #aaaaaa;
+}
+
+#carousel1Built:checked~.control1Built~.carouselIndicatorsBuilt li:nth-child(1) .carouselBulletBuilt, #carousel2Built:checked~.control2Built~.carouselIndicatorsBuilt li:nth-child(2) .carouselBulletBuilt, #carousel3Built:checked~.control3Built~.carouselIndicatorsBuilt li:nth-child(3) .carouselBulletBuilt {
+    color: #428bca;
+}
+
+#titleBuilt {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+
+
 
 /* banner_ends_here
 
@@ -156,7 +282,7 @@ body {
 
 
 
-        /* news_canvas_starts_here */
+/* news_canvas_starts_here */
 
 .NewsCanvas {
     margin: 20px 0px;
@@ -330,5 +456,7 @@ body {
     padding-top: 30px;
     padding-bottom: 10px;
 }
+
+/* #007bfs */
 
 /*footer_ends_here*/
